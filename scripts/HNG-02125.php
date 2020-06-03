@@ -1,10 +1,5 @@
-        var name = "Shotolu Paul"
-        var hngid = "HNG-02125"
-        var lang = "javascript"
-        var mail= "paulshotolu@gmail.com"
+<p id="profile"></p>
 
-		function paulfunc() {
-		   return ('Hello World, this '+ name +' with HNGi7 ID '+ hngid +' using '+ lang +' for stage 2 task. '+ mail +'');
-		}
-		console.log(paulfunc());
-
+<script>
+document.getElementById("profile").innerHTML = "Hello World, this is Shotolu Paul Oluwabukunmi with HGNi7 ID HNG-02125 using javascript";
+</script>

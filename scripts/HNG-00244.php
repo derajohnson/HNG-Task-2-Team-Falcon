@@ -6,15 +6,9 @@
 <body>
 	<?php
 
-		$hng_id = 'HNG-00244';
-		$name = 'Fabamise Adeoluwa';
-		$email = 'fabamiseadeolu@gmail.com';
-		$language = 'PHP';
+		$id = 'HNG-00244';
 
-
-		echo "<h3>Hello World, this is $name with HNGi7 ID $hng_id using $language for stage 2 task.</h3>";
-
-		echo "<p>Email Address: $email</p>";
+		echo "<p>Hello World, this is Fabamise Adeoluwa with HNGi7 ID $id using PHP for stage 2 task</p>"
 
 	?>
 </body>
